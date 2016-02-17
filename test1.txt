@@ -1,0 +1,17 @@
+1. Aenderung im Folder:
+-> Uncommitted change
+
+2. Commit to Branch
+-> Man sieht es im Branch falls es gepublished wurde
+
+3. (nur ein mal) publish
+-> Wird aufs Git hochgeladen
+
+Sync
+-> Holt Aenderungen die im Git gemacht wurden auf dem Computer
+<<<<<<< HEAD:test.txt
+
+Änderung Simon
+=======
+Gute Frage
+>>>>>>> origin/Fred_Branch:test1.txt
