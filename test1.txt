@@ -9,5 +9,9 @@
 
 Sync
 -> Holt Aenderungen die im Git gemacht wurden auf dem Computer
+<<<<<<< HEAD:test.txt
 
 Änderung Simon
+=======
+Gute Frage
+>>>>>>> origin/Fred_Branch:test1.txt
