@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Name=Qml2OpenGl
+Exec=/usr/bin/single-instance /opt/Qml2OpenGl/bin/Qml2OpenGl
+Icon=/usr/share/icons/hicolor/80x80/apps/Qml2OpenGl80.png
+X-Window-Icon=
+X-HildonDesk-ShowInToolbar=true
+X-Osso-Type=application/x-executable

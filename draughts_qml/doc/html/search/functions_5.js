@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['getcenter',['getCenter',['../class_g_l_body.html#a2fa5a8d0ebdb54861a53d55661f963e9',1,'GLBody::getCenter()'],['../class_g_l_e_s_body.html#a3973b15f63bfdf1ae27ca6d092ea8267',1,'GLESBody::getCenter()']]],
+  ['getcolor',['getColor',['../class_g_l_body.html#a98435108813045221a2c962df60b8598',1,'GLBody::getColor()'],['../class_g_l_e_s_body.html#ae1915ffb8fa8915adba8d8a471a07ef3',1,'GLESBody::getColor()']]],
+  ['getdiscradius',['getDiscRadius',['../class_g_l_disc.html#a1fcc0b3ecd7dfd4dc9c8f7fbbdf9ffcf',1,'GLDisc']]],
+  ['getfieldcoord',['getFieldCoord',['../class_g_l_disc.html#aa3bbd0eaee2461495e21f68b003c41c7',1,'GLDisc']]],
+  ['getheight',['getHeight',['../class_g_l_disc.html#a230df8490d3029ae5ac59d30d7fee496',1,'GLDisc']]],
+  ['getmvmatrix',['getMvMatrix',['../class_draughts.html#a4824d42dd273e65b06fe67b1dda7c15a',1,'Draughts::getMvMatrix()'],['../class_g_l_e_s_renderer.html#af6f079ccbe2e37b90018dde13ad36b94',1,'GLESRenderer::getMvMatrix()']]],
+  ['getnormalmatrix',['getNormalMatrix',['../class_g_l_e_s_renderer.html#a0dfc680c7a7b2aea8439f88a892858fe',1,'GLESRenderer']]],
+  ['getpmatrix',['getPMatrix',['../class_g_l_e_s_renderer.html#a57700c29516d33449e65e7243eaf2aac',1,'GLESRenderer']]],
+  ['getradius',['getRadius',['../class_g_l_body.html#a0aa0dbfcbe63eff67e33f16a1c643534',1,'GLBody']]],
+  ['getsquaresize',['getSquareSize',['../class_chess_board.html#aaaf8b84426191d73a6c4f70b93a8a926',1,'ChessBoard']]],
+  ['gettransformation',['getTransformation',['../class_g_l_body.html#a5b1a1bf66eae4d476a12d39675c0f2f2',1,'GLBody']]],
+  ['glbody',['GLBody',['../class_g_l_body.html#a86dd61f116bfd01d8f4d8656cfe1ddc9',1,'GLBody::GLBody(const QString &amp;name, float radius=1.0, const GLColorRgba &amp;m_color=GLColorRgba::clBlue, const QString m_textureFile=&quot;&quot;)'],['../class_g_l_body.html#abc03539bf1ad7fdbe27f65af1be80361',1,'GLBody::GLBody(const QString &amp;name, const QVector3D offset)']]],
+  ['glcolorrgba',['GLColorRgba',['../class_g_l_color_rgba.html#a1dfcf62fbdbb63deac8db456a5d8b05d',1,'GLColorRgba::GLColorRgba(float r=0.0, float g=0.0, float b=0.0, float a=1.0)'],['../class_g_l_color_rgba.html#af3580e510acb408439fa87e5d8653f74',1,'GLColorRgba::GLColorRgba(const GLColorRgba &amp;other)'],['../class_g_l_color_rgba.html#a6ffc715b25827505384d7309235baacf',1,'GLColorRgba::GLColorRgba(const QVector4D &amp;other)']]],
+  ['glcube',['GlCube',['../class_gl_cube.html#a3cdd77879329af0b64392437e13dccfb',1,'GlCube']]],
+  ['gldisc',['GLDisc',['../class_g_l_disc.html#a6629c7d39f496ddc1124f50a61a09812',1,'GLDisc']]],
+  ['glesbody',['GLESBody',['../class_g_l_e_s_body.html#ac3405c22dfb5e486838db97f681cf099',1,'GLESBody']]],
+  ['glesrenderer',['GLESRenderer',['../class_g_l_e_s_renderer.html#a0c5bf4702ee731dde0377a08b5e15ae2',1,'GLESRenderer']]],
+  ['glitem',['GLItem',['../class_g_l_item.html#af52b546e6d933c1c78f032fbcc031113',1,'GLItem']]],
+  ['glman',['GlMan',['../class_gl_man.html#a7d9b33db0e76d4a354197192787091b7',1,'GlMan']]],
+  ['glpoint',['GLPoint',['../class_g_l_point.html#a41a36ef6e07c906a279c866e86f2f241',1,'GLPoint']]],
+  ['glsphere',['GLSphere',['../class_g_l_sphere.html#a0484bf3e33712a2370419b1be1f05ad8',1,'GLSphere']]],
+  ['green',['green',['../class_g_l_color_rgba.html#a16ab398c536036b90fe38f32d6eb1dbf',1,'GLColorRgba']]]
+];

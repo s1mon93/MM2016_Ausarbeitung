@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>sound/cymbal.wav</file>
+        <file>sound/grenade.wav</file>
+        <file>sound/sweep.wav</file>
+        <file>sound/knock.wav</file>
+        <file>textures/black_disc.jpg</file>
+        <file>textures/white_disc.jpg</file>
+        <file>src/vshader_scaling.vsh</file>
+        <file>src/vshader.vsh</file>
+        <file>src/fshader.fsh</file>
+        <file>qml/main.qml</file>
+    </qresource>
+</RCC>
