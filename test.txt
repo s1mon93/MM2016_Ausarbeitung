@@ -9,3 +9,5 @@
 
 Sync
 -> Holt Aenderungen die im Git gemacht wurden auf dem Computer
+
+Änderung Simon
