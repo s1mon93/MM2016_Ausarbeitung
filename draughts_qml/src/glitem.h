@@ -34,7 +34,6 @@ class GLItem : public QQuickItem
     Q_PROPERTY(int viewportX READ viewportX WRITE setViewportX NOTIFY viewportXChanged)
     Q_PROPERTY(int viewportY READ viewportY WRITE setViewportY NOTIFY viewportYChanged)
 
-
 public:
     explicit GLItem(QQuickItem *parent = 0,
                     const QString &vertexShaderFilename = ":/src/vshader.vsh",
@@ -90,7 +89,7 @@ protected:
 
 
 signals:
-    
+
     void vertexShaderFilenameChanged(QString arg);
     void fragmentShaderFilenameChanged(QString arg);
     void movementActivatedChanged(bool isActive);

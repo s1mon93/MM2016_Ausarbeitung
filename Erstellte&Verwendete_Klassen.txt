@@ -1,0 +1,21 @@
+GLBody:
+
+GLItem:
++ Q_PROPERTY(int text2 MEMBER m_score NOTIFY updateScore)
++ void updateScore(const int _score);
++ int m_score;
+
+main.qml:
++ text 2 signal fuer updateScore
+
+chessboard:
++ makesurface (angepasst)
++ draw (angepasst)
++ getNearestFieldFromPosition(const QVector3D & position)
+
+draughts:
++ createDiscIfValid(const QVector3D & lastIntersection)
+
+draughtsscene:
++ Konstruktor (angepasst)
++ synchronizeThreads (angepasst)

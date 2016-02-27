@@ -10,5 +10,7 @@
         <file>src/vshader.vsh</file>
         <file>src/fshader.fsh</file>
         <file>qml/main.qml</file>
+		<file>images/blackplayer.png</file>
+		<file>images/whiteplayer.png</file>
     </qresource>
 </RCC>

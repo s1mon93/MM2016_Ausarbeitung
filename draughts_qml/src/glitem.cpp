@@ -107,7 +107,6 @@ bool GLItem::movementActivated()
     return (m_timer && m_timer->isActive());
 }
 
-
 void GLItem::paintBefore()
 {
  //   qDebug() << "GlItem::paintBefore() called";
@@ -189,7 +188,7 @@ void GLItem::stopTimer()
 
 void GLItem::mousePressed(int x, int y)
 {
-    qDebug() << "GlItem::mousePressed at x:" << x << " y: " << y;    
+    qDebug() << "GlItem::mousePressed at x:" << x << " y: " << y;
 }
 
 void GLItem::mousePositionChanged(int x, int y)

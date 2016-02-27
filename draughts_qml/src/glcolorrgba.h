@@ -32,6 +32,8 @@ public:
     static GLColorRgba clMagenta;
     static GLColorRgba clGray;
     static GLColorRgba clWhite;
+    //Simon
+    static GLColorRgba clDarkGreen;
 };
 
 

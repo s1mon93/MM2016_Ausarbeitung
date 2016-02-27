@@ -87,6 +87,13 @@ public:
      */
     const QMatrix4x4 & getMvMatrix(){return m_mvMatrix;}
 
+    // Simon
+    void createDiscIfValid(const QVector3D &lastIntersection);
+    bool checkIfPlacementValid(const QPoint field);
+    QPoint checkIfNextDiscIsOtherColor(QPoint startField, QPoint nextField, QList<GLDisc *> *otherDiscs);
+    void changeDisc(QPoint toChangeField);
+    bool isMovePossible();
+
 signals:
     void updateRequest();
     void playerChanged(Draughts::Player newPlayer);
@@ -174,6 +181,11 @@ private:
     //for debugging
     bool m_drawFrames;
     bool m_drawMouseRays;
+    QList<QPoint> m_toChangeFields;
+
+    //Simon
+    int m_countImpossibleMoves;
+    QList<GLDisc *> scoreDiscs;
 };
 
 #endif // DRAUGHTS_H

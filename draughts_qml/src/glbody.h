@@ -40,7 +40,7 @@ class GLBody{
 public:
      /**Constructor does NOT create the surface.
      */
-     GLBody(const QString & name, float radius = 1.0, const GLColorRgba & m_color = GLColorRgba::clBlue, const QString m_textureFile = "");
+     GLBody(const QString & name, float radius = 1.0, const GLColorRgba & m_color = GLColorRgba::clGreen, const QString m_textureFile = "");
      /**
       * @brief GLBody Constructor does NOT create the surface.
       * @param offset The offset from coordinate origin to modeldata zero.

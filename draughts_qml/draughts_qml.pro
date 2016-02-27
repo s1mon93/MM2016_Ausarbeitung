@@ -40,7 +40,7 @@ SOURCES += \
 RESOURCES += \
     resources.qrc
 
-LIBS += -lopengl32
+#LIBS += -lopengl32
 
 #linux{
 # LIBS += -lplibjs

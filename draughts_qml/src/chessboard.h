@@ -37,6 +37,11 @@ public:
       */
     bool isOnBoard(const QVector3D & position);
     void makeSurface(QVector<GLPoint> * pointContainer = NULL, QVector<GLuint> * indexContainer = NULL);
+    void draw(GLESRenderer *renderer);
+
+    //Simon
+    QPoint getNearestFieldFromPosition(const QVector3D & position);
+
 protected:
     /**
       * The normal on the chessboard plane
@@ -46,6 +51,12 @@ protected:
       * The size of the black and white squares
       */
     GLfloat m_squareSize;
+
+    //Simon
+    int m_firstFieldIndex;
+    int m_nextFieldIndex;
+    int m_firstDivideLineIndex;
+    int m_nextDivideLineIndex;
 };
 
 #endif // CHESSBOARD_H

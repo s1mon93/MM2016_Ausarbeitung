@@ -9,6 +9,7 @@ GLColorRgba GLColorRgba::clBlue = GLColorRgba(0.0,0.0,1.0,1.0);
 GLColorRgba GLColorRgba::clMagenta = GLColorRgba(1.0,0.0,1.0,1.0);
 GLColorRgba GLColorRgba::clGray = GLColorRgba(0.5,0.5,0.5,1.0);
 GLColorRgba GLColorRgba::clWhite = GLColorRgba(1.0,1.0,1.0,1.0);
+GLColorRgba GLColorRgba::clDarkGreen = GLColorRgba(0.0,0.5,0.0,1.0);
 
 GLColorRgba::GLColorRgba(float r, float g, float b, float a)
     :QVector4D(r,g,b,a)

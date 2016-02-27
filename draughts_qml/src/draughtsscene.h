@@ -18,6 +18,12 @@
 class DraughtsScene : public GLItem
 {
     Q_OBJECT
+    //Simon
+    Q_PROPERTY(int blackScore READ getBlackScore WRITE setBlackScore NOTIFY blackScoreChanged)
+    Q_PROPERTY(int whiteScore READ getWhiteScore WRITE setWhiteScore NOTIFY whiteScoreChanged)
+    Q_PROPERTY(QString currentPlayer READ getCurrentPlayer WRITE setCurrentPlayer NOTIFY currentPlayerChanged)
+    Q_PROPERTY(QString winner READ getWinner WRITE setWinner NOTIFY winnerChanged)
+
 public:
     explicit DraughtsScene( QQuickItem *parent = 0);
 
@@ -32,8 +38,44 @@ public:
      */
     virtual void paintOnTopOfQmlScene();
 
+    //Simon
+    int getBlackScore() const
+    {
+        return m_blackScore;
+    }
+
+    int getWhiteScore() const
+    {
+        return m_whiteScore;
+    }
+
+    QString getCurrentPlayer() const
+    {
+        return m_currentPlayer;
+    }
+
+    QString getWinner() const
+    {
+        return m_winner;
+    }
+
+    bool getNewGamePressed() const
+    {
+        return m_newGamePressed;
+    }
+
 signals:
-    
+    //Simon
+    void blackScoreChanged(int blackScore);
+
+    void whiteScoreChanged(int whiteScore);
+
+    void currentPlayerChanged(QString currentPlayer);
+
+    void winnerChanged(QString winner);
+
+    void newGameTimeOut();
+
 public slots:
     /**
      * @brief newGame Create a new game
@@ -67,6 +109,16 @@ public slots:
     */
    void synchronizeThreads();
 
+   //Simon
+   void setBlackScore(int blackScore);
+
+   void setWhiteScore(int whiteScore);
+
+   void setCurrentPlayer(QString currentPlayer);
+
+   void setWinner(QString winner);
+
+   void createNewGame();
 
 private:
    /**
@@ -124,6 +176,14 @@ private:
    bool m_mousePressReceived;
    bool m_mouseReleaseReceived;
    bool m_mousePositionChangedReceived;
+
+   //Simon
+   int m_blackScore;
+   int m_whiteScore;
+   QString m_currentPlayer;
+   QString m_winner;
+   QTimer * m_timerForNewGame;
+   bool m_newGamePressed;
 };
 
 #endif // DRAUGHTSSCENE_H
